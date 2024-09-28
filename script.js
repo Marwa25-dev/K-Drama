@@ -23,7 +23,7 @@ function displayData(data) {
         
         item = data[i]
         const numHeader = document.createElement('h3');
-        numHeader.textContent = `Number: ${item.num}`;
+        numHeader.textContent = `الحلقة: ${item.num}`;
         container.appendChild(numHeader);
 
         // Create a list for download links
